@@ -30,6 +30,7 @@ function playGame(difficulty){  // Sets the difficulty and starts the game
     if (difficulty==1){
         timeInterval=3000;
         multiplier=1;
+        //This is just a PR test
     }
     if (difficulty==2){
         timeInterval=1500;
