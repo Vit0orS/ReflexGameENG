@@ -34,11 +34,11 @@ function playGame(difficulty){  // Sets the difficulty and starts the game
     }
     if (difficulty==2){
         timeInterval=1500;
-        multiplier=2;
+        multiplier=3;
     }
     if (difficulty==3){
         timeInterval=1000;
-        multiplier=5;
+        multiplier=6;
     }
 
     document.getElementById("mainMenu").remove();
