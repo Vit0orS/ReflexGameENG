@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Reflex</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Vitor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="loaded()">
+        <div id="mainMenu">
+            <h1>Reflex</h1>  
+            <button id="playButton" onclick="chooseDifficulty()">Play</button>
+            <img src>
+            <button style="display: none;" id="easy" class="difficulty" onclick="playGame(1)">Easy</button>
+            <button style="display: none;" id="medium" class="difficulty" onclick="playGame(2)">Medium</button>
+            <button style="display: none;" id="hard" class="difficulty" onclick="playGame(3)">Hard</button>
+        </div>
+        
+        <div id="game">
+            <p id="scoreP"></p>
+        </div>
+        
+        <p id="health"></p>
+        <p id="score"></p>
+
+        <audio id="clickSound">
+            <source src="sfx/Explosion.wav" type="audio/wav">
+          </audio>
+
+        <audio id="failSound">
+            <source src="sfx/Laser.wav" type="audio/wav">
+          </audio>
+
+    </body>
+</html>

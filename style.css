@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background: black;
+    font-family: Unispace;
+    color: white;
+}
+
+#mainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+#mainMenu h1 {
+    -webkit-text-stroke: 1px black;
+    font-size: 4em;
+}
+
+#mainMenu button{
+    height: 150vh;
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    top: 65%;
+    font-size: 4em;
+    font-family: Unispace;
+}
+
+#easy{
+    right: 60%;
+}
+
+#hard{
+    left: 60%;
+}
+
+#scoreP{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 4em;
+    font-family: Unispace;
+}
