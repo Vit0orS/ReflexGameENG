@@ -11,14 +11,3 @@
 * CSS
 * Javascript
 * Paint
-
-What I've learned the most with this project:
-*  setInterval / setTimeout / clearTimeout
-2. Play sounds
-3. How to center a div
-4. How to center objects
-
-Start Date: ???
-Finish Date: 13/09/2021
-
-
